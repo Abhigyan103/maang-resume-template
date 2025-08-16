@@ -1,0 +1,128 @@
+
+\documentclass{resume}
+
+%----------Personal Info----------
+\newcommand{\name}{Sam Altman}
+\newcommand{\email}{sam.altman@email.com}
+\newcommand{\phone}{+1-555-123-4567}
+\newcommand{\github}{https://github.com/sama}
+\newcommand{\linkedin}{https://www.linkedin.com/in/samaltman}
+\newcommand{\leetcode}{https://leetcode.com/u/samaltman}
+\newcommand{\college}{Stanford University}
+\newcommand{\course}{Bachelor of Science in Computer Science}
+\newcommand{\collegeDuration}{2003 -- 2005}
+\newcommand{\collegeMarks}{9.8}
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \displayName{\name}\\
+  \printHeaderDatas{
+    \do{mailto:\email}{\faEnvelopeO}{\email}
+    \do{tel:\phone}{\faPhone}{\phone}
+  }\\
+  \printHeaderLinks{
+    \do{\github}{\faGithub}{Github}
+    \do{\linkedin}{\faLinkedinSquare}{LinkedIn}
+    \do{\leetcode}{\faCode}{Leetcode}
+  }
+\end{center}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\entryListStart
+  \entry
+    {\href{https://www.openai.com}{OpenAI}}{Mar 2019 -- Present}
+    {Chief Executive Officer}{San Francisco, CA}
+    \itemListStart
+      \itemDesc{Leading the development and deployment of advanced artificial intelligence technologies, including GPT-4 and ChatGPT.}
+      \itemDesc{Scaled OpenAI from a research lab to a global leader in AI, partnering with major organizations and overseeing multi-billion dollar investments.}
+      \itemDesc{Guided company vision, product strategy, and public policy on AI safety and ethics.}
+      \itemDesc{Built and managed a world-class team of researchers, engineers, and business leaders.}
+    \itemListEnd
+  \entry
+    {\href{https://www.ycombinator.com}{Y Combinator}}{2014 -- 2019}
+    {President}{Mountain View, CA}
+    \itemListStart
+      \itemDesc{Oversaw the acceleration and funding of hundreds of startups, including Stripe, Airbnb, and Dropbox.}
+      \itemDesc{Expanded Y Combinator’s reach and impact, launching new programs and increasing diversity in the startup ecosystem.}
+      \itemDesc{Mentored founders and helped shape the next generation of technology companies.}
+    \itemListEnd
+  \entry
+    {\href{https://www.loopt.com}{Loopt}}{2005 -- 2012}
+    {Co-founder, CEO}{Mountain View, CA}
+    \itemListStart
+      \itemDesc{Built and launched one of the first location-based social networking apps.}
+      \itemDesc{Raised \$30M+ in venture capital and led company to successful acquisition.}
+      \itemDesc{Pioneered mobile privacy and location-sharing features.}
+    \itemListEnd
+\entryListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\entryListStart
+  \entry
+    {\href{https://www.worldcoin.org}{Worldcoin}}{2020 -- Present}
+    {Co-founder}{Global digital identity and cryptocurrency project}
+    \itemListStart
+      \itemDesc{Launched Worldcoin, aiming to provide universal access to the global economy.}
+      \itemDesc{Developed privacy-preserving biometric identity verification at scale.}
+      \itemDesc{Raised \$100M+ in funding and built a global team.}
+    \itemListEnd
+  \entry
+    {\href{https://www.ycombinator.com/topcompanies}{YC Top Companies}}{2014 -- 2019}
+    {Mentor, Investor}{Startup Accelerator}
+    \itemListStart
+      \itemDesc{Advised and invested in top startups including Stripe, Airbnb, and DoorDash.}
+      \itemDesc{Helped founders with product, fundraising, and scaling challenges.}
+    \itemListEnd
+  \entry
+    {\href{https://www.openai.com/blog/introducing-chatgpt}{ChatGPT}}{2022}
+    {Product Lead}{Conversational AI}
+    \itemListStart
+      \itemDesc{Oversaw the launch and rapid growth of ChatGPT, reaching millions of users.}
+      \itemDesc{Directed product vision and user experience for generative AI.}
+    \itemListEnd
+\entryListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+\entryListStart
+  \entry
+    {\college}{\collegeDuration}
+    {\course}{GPA: N/A}
+  % \entry
+  %   {St. Xavier's Institution, Panihati}{2018 -- 2020}
+  %   {Higher Secondary}{86.4\%}
+\entryListEnd
+
+%--------TECHNICAL SKILLS------------
+\section{Technical Skills}
+\skillsStart
+  \skillItem{Programming Languages}{JavaScript, Python, Java, C, C++, Dart}
+  \skillItem{Coursework}{Computer Networks, Operating Systems, DBMS, DSA, OOP}
+  \skillItem{Technologies \& Tools}{ReactJS, Node.js, Flutter, MongoDB, PostgreSQL, MySQL, Docker, Linux, Grafana, ArgoCD}
+\skillsEnd
+
+
+%--------ACHIEVEMENTS------------
+\section{Achievements}
+\bulletListStart
+  \itemSub{\href{https://www.forbes.com/30-under-30/2015/}{Forbes 30 Under 30}}{Named to Forbes 30 Under 30 in Venture Capital.}
+  \itemSub{\href{https://time.com/collection/100-most-influential-people-2023/}{TIME 100}}{Recognized as one of TIME's 100 Most Influential People in 2023.}
+  \itemSub{\href{https://www.technologyreview.com/2015/08/18/166211/35-innovators-under-35/}{MIT Technology Review Innovators Under 35}}{Honored as a top innovator under 35.}
+  \itemSub{\href{https://www.openai.com/blog/introducing-chatgpt}{ChatGPT Launch}}{Oversaw the launch of ChatGPT, reaching 100M+ users in record time.}
+  \itemSub{\href{https://www.ycombinator.com/topcompanies}{YC Top Companies}}{Mentored and funded multiple unicorn startups through Y Combinator.}
+\bulletListEnd
+
+%--------OTHER ROLES------------
+\section{Other Roles}
+\bulletListStart
+  \itemSub{\href{https://www.economicclub.org/events/sam-altman}{Speaker, Economic Club of Washington}}{Featured speaker on AI and the future of technology.}
+  \itemSub{\href{https://www.ted.com/speakers/sam_altman}{TED Speaker}}{Gave a TED talk on artificial intelligence and society.}
+  \itemSub{\href{https://www.openai.com/about}{OpenAI Leadership}}{Leading OpenAI’s mission for safe and beneficial AI.}
+\bulletListEnd
+
+\end{document}
